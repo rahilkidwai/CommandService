@@ -17,7 +17,6 @@ namespace Command.Service
             GetDocumentation();
             if (commands == null) return;
 
-            uxLIteralCategoryName.Text = commands[0].Key.Category;
             uxLiteralCategory.Text = string.Format("{0}&nbsp;<a href='{1}'>Commands</a>&nbsp;({2})", commands[0].Key.Category, this.ResolveUrl("~/help"), commands.Count);
             uxLiteralCommands.Text = SetCommandsDocumentation();
         }

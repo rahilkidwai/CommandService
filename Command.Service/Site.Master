@@ -33,11 +33,11 @@
             </div>
         </div>
         <div class="container body-content">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" >
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Commands API</p>
+                <p>Commands API - &copy; <%: DateTime.Now.Year %> </p>
             </footer>
         </div>
         <script src="Scripts/jquery-2.1.4.min.js"></script>

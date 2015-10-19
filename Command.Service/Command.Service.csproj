@@ -48,6 +48,7 @@
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Site.css" />
     <Content Include="HttpHandler.ashx" />
     <Content Include="Site.Master" />
     <None Include="Web.Debug.config">
